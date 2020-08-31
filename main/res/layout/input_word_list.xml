@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintHeight_percent=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".5">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/english"
+            app:autoSizeTextType="uniform" />
+
+        <EditText
+            android:id="@+id/n_word1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_one"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_two"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_three"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_four"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_five"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_six"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/n_word7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_seven"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/n_word8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_eight"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_nine"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_ten"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_eleven"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/n_word12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_twelve"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".5">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/other"
+            app:autoSizeTextType="uniform" />
+
+        <EditText
+            android:id="@+id/nn_word1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_one"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nn_word2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_two"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_three"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nn_word4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_four"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nn_word5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_five"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_six"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nn_word7"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_seven"
+            android:padding="2dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nn_word8"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_eight"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_nine"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_ten"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_eleven"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/nn_word12"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:hint="@string/word_twelve"
+            android:padding="2dp"
+            android:inputType="textPersonName"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+</android.support.constraint.ConstraintLayout>

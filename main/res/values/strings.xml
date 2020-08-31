@@ -1,0 +1,32 @@
+<resources>
+        <string name="app_name">Sudoku Puzzle</string>
+        <string name="new_game">New Game</string>
+        <string name="add">Add</string>
+        <string name="erase">Erase</string>
+        <string name="listen">Listen</string>
+
+
+        <string name="word_one">1</string>
+        <string name="word_two">2</string>
+        <string name="word_three">3</string>
+        <string name="word_four">4</string>
+        <string name="word_five">5</string>
+        <string name="word_six">6</string>
+        <string name="word_seven">7</string>
+        <string name="word_eight">8</string>
+        <string name="word_nine">9</string>
+        <string name="word_ten">10</string>
+        <string name="word_eleven">11</string>
+        <string name="word_twelve">12</string>
+
+    <string name="save">Save</string>
+    <string name="other">Other</string>
+    <string name="english">English</string>
+
+
+    <string name="select">Select Word List</string>
+    <string name="selectDiff">Select Difficulty</string>
+    <string name="boardSelectTitle">Select Board Size</string>
+
+    </resources>
+
